@@ -1,0 +1,95 @@
+@media (min-width: 768px) {
+  // .mainVisual_logo{
+  //     font-size: 10px;
+  // }
+  // .sns-icon {
+  //     display: none;
+  // }
+  // .footer {
+  //     position: absolute;
+  //     bottom: 0;
+  // }
+}
+@media (min-width: 1024px) {
+}
+@media (max-width: 767px) {
+  .header .header_inner_list .header_inner_listItem {
+    list-style: none;
+    font-size: 2vw;
+    padding-right: 20px;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+  }
+  .header_inner_listItem--top {
+    margin-right: auto;
+    padding-left: 20px;
+  }
+  .mainVisual {
+    height: 100vh;
+    margin-bottom: 0;
+  }
+  .mainVisual .mainVisual_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    // margin-bottom: 300px;
+  }
+  .mainVisual .mainVisual_inner .mainVisual_logo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    letter-spacing: 4px;
+    font-size: 2rem;
+  }
+  .mainVisual .mainVisual_inner .mainVisual_sentence {
+    position: absolute;
+    margin-top: 40px;
+    top: 37.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    letter-spacing: 5px;
+  }
+  .footer {
+    position: sticky;
+    bottom: 0;
+  }
+  .sns-icon {
+    display: none;
+  }
+  .bg {
+    background-position: center 50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 59%;
+    background-attachment: fixed;
+    top: 0px;
+  }
+  .skill_set {
+    display: block;
+}
+.skill_items {
+    margin: 0 auto;
+    & >h2 {
+        letter-spacing: 0px;
+    }
+}
+svg {
+    max-width: 90vw;
+    transform: translate(-30%, -20%);
+}
+.contact-title {
+    font-size: 3rem;
+    text-align: center;
+}
+.title {
+    font-size:1rem ;
+}
+.input {
+    font-size: 1rem;
+}
+}
+
+

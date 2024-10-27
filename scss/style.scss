@@ -1,0 +1,20 @@
+@use "_reset";
+@use "_header";
+@use "_top";
+@use "_about";
+@use "_skill";
+@use "_contact";
+@use "_footer";
+@use "_responsive";
+
+
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+}
+
+body {
+  background-color: rgb(238, 234, 226);
+  min-height: 100%;
+}

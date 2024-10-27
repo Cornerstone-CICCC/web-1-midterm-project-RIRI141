@@ -1,0 +1,43 @@
+.bg2 {
+  background-image: url(../pics/bg2.jpg);
+  background-position: top center;
+//   position: absolute;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+margin: 0 auto;
+  z-index: -1;
+  position: fixed;
+}
+
+.content {
+  width: 100%;
+  margin: 665px auto 0;
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(238, 234, 226);
+}
+
+.content > h2 {
+  font-size: 1.2rem;
+  letter-spacing: 10px;
+  padding-top: 40px;
+  margin: 0 40px 0.4px ;
+  text-decoration: underline black 1px;
+  height: 20px;
+}
+
+.content > h1 {
+  font-size: 2.5rem;
+  letter-spacing: 10px;
+  margin: 0 40px 3vw;
+  text-decoration: underline black 1px;
+}
+
+.about-sentence {
+    margin: 0 40px 0.4px ;
+    padding-bottom: 40px;
+    font-size: large;
+}
+
